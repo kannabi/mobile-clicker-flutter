@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_clicker/clicker/ClickerPresenterProvider.dart';
-import 'package:mobile_clicker/clicker/view/ClickerWidget.dart';
+import 'package:mobile_clicker/clicker/clicker_presenter_provider.dart';
+import 'package:mobile_clicker/clicker/view/clicker_widget.dart';
 
 void main() => runApp(new MyApp());
 

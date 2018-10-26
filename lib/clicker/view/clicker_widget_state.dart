@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mobile_clicker/clicker/presenter/ClickerPresenter.dart';
-import 'package:mobile_clicker/clicker/view/ClickerView.dart';
-import 'package:mobile_clicker/clicker/view/ClickerWidget.dart';
-import 'package:mobile_clicker/clicker/view/widgets/ClickerButton.dart';
+import 'package:mobile_clicker/clicker/presenter/clicker_presenter.dart';
+import 'package:mobile_clicker/clicker/view/clicker_view.dart';
+import 'package:mobile_clicker/clicker/view/clicker_widget.dart';
+import 'package:mobile_clicker/clicker/view/widgets/clicker_button.dart';
 
 class ClickerWidgetState extends State<ClickerWidget> implements ClickerView {
   final ClickerPresenter presenter;
