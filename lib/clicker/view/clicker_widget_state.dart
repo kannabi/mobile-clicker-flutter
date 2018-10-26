@@ -5,9 +5,16 @@ import 'package:mobile_clicker/clicker/view/clicker_widget.dart';
 import 'package:mobile_clicker/clicker/view/widgets/clicker_button.dart';
 
 class ClickerWidgetState extends State<ClickerWidget> implements ClickerView {
-  final ClickerPresenter presenter;
+  final ClickerPresenter _presenter;
 
-  ClickerWidgetState(this.presenter);
+  ClickerWidgetState(this._presenter);
+
+
+  @override
+  void initState() {
+    super.initState();
+    _presenter.attachView(this);
+  }
 
   @override
   Widget build(BuildContext context) =>
