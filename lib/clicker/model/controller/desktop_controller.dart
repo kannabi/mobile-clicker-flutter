@@ -1,6 +1,6 @@
 abstract class DesktopController {
 
-  void init();
+  Future<void> init();
 
   int getPageNumbers();
 

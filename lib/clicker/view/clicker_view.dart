@@ -1,3 +1,4 @@
 abstract class ClickerView {
 
+  goToConnectScreen();
 }

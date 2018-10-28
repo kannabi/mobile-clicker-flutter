@@ -1,5 +1,7 @@
 abstract class PrimitiveStore {
 
+  const PrimitiveStore();
+
   Future<void> store(String key, String value);
 
   Future<void> storeAll(Map<String, String> map);

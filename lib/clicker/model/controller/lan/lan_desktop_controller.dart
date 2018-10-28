@@ -1,5 +1,5 @@
 import 'package:mobile_clicker/clicker/model/controller/desktop_controller.dart';
-import 'package:mobile_clicker/clicker/store/primitive_store.dart';
+import 'package:mobile_clicker/store/primitive_store.dart';
 
 class LanDesktopController implements DesktopController {
   String _desktopIp;
@@ -44,8 +44,8 @@ class LanDesktopController implements DesktopController {
   }
 
   @override
-  void init() {
-    // TODO: implement init
+  Future<void> init() {
+
   }
 
   @override

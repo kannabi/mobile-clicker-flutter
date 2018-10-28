@@ -1,7 +1,10 @@
+import 'package:mobile_clicker/store/primitive_store.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:mobile_clicker/clicker/store/primitive_store.dart';
 
+// There is should be prefs variable initialization at class creation but it will be added lately
 class PreferencesPrimitiveStore extends PrimitiveStore {
+
+  const PreferencesPrimitiveStore();
 
   @override
   Future<String> find(String key) async {

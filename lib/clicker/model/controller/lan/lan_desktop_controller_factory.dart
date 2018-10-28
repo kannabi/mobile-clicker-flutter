@@ -1,7 +1,7 @@
 import 'package:mobile_clicker/clicker/model/controller/desktop_controller.dart';
 import 'package:mobile_clicker/clicker/model/controller/desktop_controller_factory.dart';
 import 'package:mobile_clicker/clicker/model/controller/lan/lan_desktop_controller.dart';
-import 'package:mobile_clicker/clicker/store/primitive_store.dart';
+import 'package:mobile_clicker/store/primitive_store.dart';
 
 class LanDesktopControllerFactory extends DesktopControllerFactory {
 
