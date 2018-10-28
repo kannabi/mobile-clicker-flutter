@@ -1,0 +1,11 @@
+const SESSION_ID_KEY = "SESSION_ID";
+
+const MAX_PAGE_KEY = "MAX_PAGE_KEY";
+
+const CONTROLLER_TAG_KEY = "CONTROLLER_TAG_KEY";
+
+const CURRENT_NAME_KEY = "CURRENT_NAME";
+
+const IP_KEY = "IP";
+
+const PORT_KEY = "PORT";
